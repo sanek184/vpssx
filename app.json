@@ -1,0 +1,29 @@
+ {
+  "name": "vpssx",
+  "env": {
+     "ENCRYPT": {
+      "description": "encryption method",
+      "value": "chacha20-ietf-poly1305"
+    },
+     "PASSWORD": {
+      "description": "password",
+      "value": "279fe1ab-2fa5-43eb-8c5d-122cd15599b5"
+    },
+
+     "V2_Path": {
+      "description": "Auto-generated",
+      "generator": "secret"
+    },
+
+     "AppName": {
+      "description": "QR",
+      "value": "no"
+    },
+
+    "QR_Path": {
+       "description": "QR code",
+       "value": "/qr"
+     }
+  },
+  "stack": "container"
+ }
